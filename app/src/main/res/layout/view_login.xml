@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ItemListActivity"
+    tools:showIn="@layout/activity_login">
+
+    <Button
+        android:padding="14dp"
+        android:id="@+id/btnGoogle"
+        android:layout_width="300dp"
+        android:elevation="70dp"
+        android:layout_height="50dp"
+        android:drawableStart="@drawable/ic_google"
+        android:drawableTint="@android:color/white"
+        android:text="Acceder con Google"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:background="#DB4437"
+android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnEmail"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:padding="14dp"
+        android:layout_marginTop="8dp"
+        android:elevation="70dp"
+        android:textSize="15dp"
+        android:textAllCaps="false"
+        android:drawableStart="@drawable/ic_email"
+        android:drawableTint="@android:color/white"
+        android:background="#F4B400"
+        android:textColor="#ffffff"
+        android:text="Acceder con el correo electrónico"
+        app:layout_constraintEnd_toEndOf="@id/btnGoogle"
+        app:layout_constraintStart_toStartOf="@id/btnGoogle"
+        app:layout_constraintTop_toBottomOf="@id/btnGoogle" />
+
+
+    <TextView
+        android:id="@+id/tvPolicy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Términos y condiciones"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.5" />
+
+</android.support.constraint.ConstraintLayout>

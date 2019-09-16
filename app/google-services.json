@@ -1,0 +1,241 @@
+{
+  "project_info": {
+    "project_number": "547743394644",
+    "firebase_url": "https://moduloestudiante.firebaseio.com",
+    "project_id": "moduloestudiante",
+    "storage_bucket": "moduloestudiante.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:547743394644:android:7654499806ae21b6",
+        "android_client_info": {
+          "package_name": "michael.acosta.movimientoderotacion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "547743394644-t67m537dg2gh4obqh3fepig9rldfbdcv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "michael.acosta.movimientoderotacion",
+            "certificate_hash": "6694925adc26300297d333598fc5d530e8ce38d5"
+          }
+        },
+        {
+          "client_id": "547743394644-9q9890dmlo75jld08vka7vrcj48vocgh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "michael.acosta.movimientoderotacion",
+            "certificate_hash": "cbb24c0a4d0547d497ca7ef7dcaa182a165ae941"
+          }
+        },
+        {
+          "client_id": "547743394644-rjnclilmthnil4ea065c04n9h1c7j3sk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBHpMZhHeL18ognynqbfVh_ZEp_j4HJhc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "547743394644-rjnclilmthnil4ea065c04n9h1c7j3sk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:547743394644:android:e1e587cf6580b37e",
+        "android_client_info": {
+          "package_name": "com.example.mdulodeevaluacin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "547743394644-bcrqhkdbkkr0qirqng9dsr8s9hfeduih.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mdulodeevaluacin",
+            "certificate_hash": "cbb24c0a4d0547d497ca7ef7dcaa182a165ae941"
+          }
+        },
+        {
+          "client_id": "547743394644-rjnclilmthnil4ea065c04n9h1c7j3sk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBHpMZhHeL18ognynqbfVh_ZEp_j4HJhc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "547743394644-rjnclilmthnil4ea065c04n9h1c7j3sk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:547743394644:android:34292012032264ef",
+        "android_client_info": {
+          "package_name": "com.example.moduloestudiante"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "547743394644-ajl9o80hc645m6k1v4kc12m2158ao97m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.moduloestudiante",
+            "certificate_hash": "cbb24c0a4d0547d497ca7ef7dcaa182a165ae941"
+          }
+        },
+        {
+          "client_id": "547743394644-rjnclilmthnil4ea065c04n9h1c7j3sk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBHpMZhHeL18ognynqbfVh_ZEp_j4HJhc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "547743394644-rjnclilmthnil4ea065c04n9h1c7j3sk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:547743394644:android:fa1d243c904e7dbf",
+        "android_client_info": {
+          "package_name": "com.example.moduloprofesor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "547743394644-vqcaiur0ubcn2bs0r1v2h93drn2hhman.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.moduloprofesor",
+            "certificate_hash": "cbb24c0a4d0547d497ca7ef7dcaa182a165ae941"
+          }
+        },
+        {
+          "client_id": "547743394644-rjnclilmthnil4ea065c04n9h1c7j3sk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBHpMZhHeL18ognynqbfVh_ZEp_j4HJhc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "547743394644-rjnclilmthnil4ea065c04n9h1c7j3sk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:547743394644:android:e5bb5bafaf690333",
+        "android_client_info": {
+          "package_name": "com.example.prototipomoduloprofesor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "547743394644-0vtl3oolbtmvrrlijq6537304rk7rr96.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.prototipomoduloprofesor",
+            "certificate_hash": "cbb24c0a4d0547d497ca7ef7dcaa182a165ae941"
+          }
+        },
+        {
+          "client_id": "547743394644-rjnclilmthnil4ea065c04n9h1c7j3sk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBHpMZhHeL18ognynqbfVh_ZEp_j4HJhc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "547743394644-rjnclilmthnil4ea065c04n9h1c7j3sk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:547743394644:android:f4e1ca349f6921f8",
+        "android_client_info": {
+          "package_name": "michael.acosta.movimientoderotacion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "547743394644-qlskjqi7kfji1or37adev9olentutbj9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "michael.acosta.movimientoderotacion",
+            "certificate_hash": "cbb24c0a4d0547d497ca7ef7dcaa182a165ae941"
+          }
+        },
+        {
+          "client_id": "547743394644-rjnclilmthnil4ea065c04n9h1c7j3sk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBHpMZhHeL18ognynqbfVh_ZEp_j4HJhc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "547743394644-rjnclilmthnil4ea065c04n9h1c7j3sk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">RotationDroid</string>
+    <string name="particula">Partícula</string>
+    <string name="cilindro_solido">Cilindro Sólido</string>
+    <string name="cilindro_anular">Cilindro Anular</string>
+    <string name="esfera_solida">Esfera Sólida</string>
+    <string name="esfera_hueca">Esfera Anular</string>
+    <string name="placa_rectangular">Placa con eje central</string>
+    <string name="varilla_ejeCentral">Varilla con eje central</string>
+    <string name="varilla_ejeExtremo">Varilla con eje extremo</string>
+    <string name="anillo">Anillo Cilíndrico</string>
+    <string name="parametros_angulares">Parámetros angulares</string>
+
+
+    <string-array name="solidos">
+        <item>Particula</item>
+        <item>Cilindro sólido</item>
+        <item>Cilindro anular</item>
+        <item>Esfera sólida</item>
+        <item>Esfera Hueca</item>
+        <item>Placa con eje central</item>
+        <item>Varilla con eje central</item>
+        <item>Varilla con eje en un extremo</item>
+        <item>Anillo cilíndrico</item>
+
+    </string-array>
+
+    <string name="open">Abrir</string>
+    <string name="close">Cerrar</string>
+    <string name="aceleraci_n_promedio_del_movimiento">Aceleración promedio del movimiento</string>
+    <string name="tiempo_transcurrido">Tiempo transcurrido</string>
+    <string name="desplazamiento_angular">Desplazamiento angular</string>
+    <string name="v_media">(V. media)</string>
+    <string name="velocidad_final">Velocidad final</string>
+    <string name="velocidad_inicial">Velocidad inicial</string>
+    <string name="momento_de_inercia">Momento de inercia</string>
+    <string name="title_item_detail">item_detail</string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#5472d3</color>
+    <color name="colorPrimary">#2E2E2E</color>
+    <color name="colorPrimaryDark">#151515</color>
+    <color name="primaryTextColor">#ffffff</color>
+    <color name="alerta">#5472d3</color>
+    <color name="colorPantallaBienvenida">#ffffff</color>
+    <color name="respuetas">#54ACFA</color>
+    <color name="primaryColor">#424242</color>
+
+    <color name="naranjaBajo">#FFB229</color>
+    <color name="naranjaMedio">#E88707</color>
+    <color name="naranjaAlto">#E86105</color>
+    <color name="colorSeleccion">#A4A4A4</color>
+    <color name="colorAnular">#F7F8E0</color>
+    <color name="colorParamAngular">#FE2E2E</color>
+    <color name="colorBtnCodigos">#839e2e</color>
+
+</resources>

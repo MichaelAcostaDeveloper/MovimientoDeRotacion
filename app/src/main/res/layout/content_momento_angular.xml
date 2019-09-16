@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ContextosDinamicos.MomentoAngular"
+    android:focusableInTouchMode="true"
+    tools:showIn="@layout/activity_momento_angular">
+
+    <TableLayout
+        android:id="@+id/tableImagen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:layout_margin="25dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:shrinkColumns="*"
+        android:stretchColumns="*">
+
+        <TableRow>
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                app:srcCompat="@drawable/mcuv" />
+        </TableRow>
+    </TableLayout>
+
+    <ScrollView
+        android:id="@+id/scrollDatos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tableImagen">
+
+        <TableLayout
+            android:id="@+id/tablaValores"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center">
+
+            <TableRow
+                android:id="@+id/fila1"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:gravity="center"
+                    android:text="ω:"
+                    android:textAppearance="?android:textAppearance"
+                    android:textSize="20dp" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/ti1"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <EditText
+                        android:id="@+id/ed1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:maxLength="8"
+                        android:hint="velocidad angular inicial"
+                        android:inputType="numberDecimal|numberSigned"
+                        android:textSize="17dp"
+                        android:theme="@style/Editext" />
+                </android.support.design.widget.TextInputLayout>
+
+                <TextView
+                    android:id="@+id/tx1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="[rad/s]"
+                    android:textColor="#000000"
+                    android:textSize="17dp"
+                    android:textStyle="normal" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/fila2"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/text2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:gravity="center"
+                    android:text="ω:"
+                    android:textAppearance="?android:textAppearance"
+                    android:textSize="20dp" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/ti2"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <EditText
+                        android:id="@+id/ed2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:hint="velocidad angular final"
+                        android:inputType="numberDecimal|numberSigned"
+                        android:textSize="17dp"
+                        android:maxLength="8"
+                        android:theme="@style/Editext" />
+                </android.support.design.widget.TextInputLayout>
+
+                <TextView
+                    android:id="@+id/tx2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="[rad/s]"
+                    android:textColor="#000000"
+                    android:textSize="17dp"
+                    android:textStyle="normal" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/fila3"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/text3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:gravity="center"
+                    android:text="L:"
+                    android:textAppearance="?android:textAppearance"
+                    android:textSize="20dp" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/ti3"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <EditText
+                        android:id="@+id/ed3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:hint="momento angular inicial"
+                        android:inputType="numberDecimal|numberSigned"
+                        android:textSize="17dp"
+                        android:maxLength="8"
+                        android:theme="@style/Editext" />
+                </android.support.design.widget.TextInputLayout>
+
+                <TextView
+                    android:id="@+id/tx3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="[kg·m²/s]"
+                    android:textColor="#000000"
+                    android:textSize="17dp"
+                    android:textStyle="normal" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/fila4"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/text4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:gravity="center"
+                    android:text="L:"
+                    android:textAppearance="?android:textAppearance"
+                    android:textSize="20dp" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/ti4"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <EditText
+                        android:id="@+id/ed4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:hint="momento angular final"
+                        android:inputType="numberDecimal|numberSigned"
+                        android:textSize="17dp"
+                        android:maxLength="8"
+                        android:theme="@style/Editext" />
+                </android.support.design.widget.TextInputLayout>
+
+                <TextView
+                    android:id="@+id/tx4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="[kg·m²/s]"
+                    android:textColor="#000000"
+                    android:textSize="17dp"
+                    android:textStyle="normal" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/fila5"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/text5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:gravity="center"
+                    android:text="I:"
+                    android:textAppearance="?android:textAppearance"
+                    android:textSize="20dp" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/ti5"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <EditText
+                        android:id="@+id/ed5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:hint="inercia rotacional"
+                        android:inputType="numberDecimal|numberSigned"
+                        android:textSize="17dp"
+                        android:maxLength="8"
+                        android:theme="@style/Editext" />
+                </android.support.design.widget.TextInputLayout>
+
+                <TextView
+                    android:id="@+id/tx5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="[kg·m²]"
+                    android:textColor="#000000"
+                    android:textSize="17dp"
+                    android:textStyle="normal" />
+            </TableRow>
+        </TableLayout>
+
+
+    </ScrollView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scrollDatos"
+        android:layout_alignEnd="@+id/tableImagen"
+        android:layout_gravity="bottom|end"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="20dp"
+        android:foregroundGravity="center"
+        android:onClick="calcular"
+        app:srcCompat="@drawable/hand" />
+
+
+</RelativeLayout>

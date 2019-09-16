@@ -1,0 +1,62 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Theme" parent="Theme.AppCompat.DayNight.Dialog.Alert">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <style name="TemaDialogoAlertas" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!-- Customize your theme here. -->
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:windowBackground">@drawable/side_background_dialogo_alertas</item>
+        <item name="colorAccent">@android:color/white</item>
+    </style>
+
+    <style name="TemaPantallaBienvenida" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:windowBackground">@drawable/side_pantalla_bienvenida</item>
+    </style>
+
+    <style name="Editext" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/naranjaMedio</item>
+        <item name="colorControlActivated">@color/naranjaAlto</item>
+        <item name="colorControlHighlight">@color/naranjaBajo</item>
+
+    </style>
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"></style>
+
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"></style>
+
+    <style name="NavegationDrawer" parent="AppTheme">
+        <item name="colorPrimary">@color/colorAccent</item>
+        <item name="selectableItemBackgroundBorderless">@color/colorSeleccion</item>
+    </style>
+
+    <style name="ToolbarRegreso">
+        <item name="theme">@style/ThemeOverlay.AppCompat.Dark</item>
+        <item name="navigationIcon">@drawable/ic_arrow_back</item>
+        <item name="android:background">?colorPrimary</item>
+    </style>
+
+
+</resources>

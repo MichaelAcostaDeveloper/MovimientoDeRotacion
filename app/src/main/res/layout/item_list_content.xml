@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/id_NumeroPregunta"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:layout_weight="30"
+        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="mmmmmmmm"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/id_ResultadoPregunta"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_weight="30"
+        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="0.0.0.0."
+        android:textColor="#000000"
+        android:textSize="15dp" />
+
+    <TextView
+        android:text="0000"
+        android:id="@+id/id_UnidadPregunta"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:layout_weight="20"
+        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/id_btnDelete"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_weight="20"
+        android:src="@drawable/ic_delete"
+        android:background="@android:color/transparent"
+        />
+</LinearLayout>

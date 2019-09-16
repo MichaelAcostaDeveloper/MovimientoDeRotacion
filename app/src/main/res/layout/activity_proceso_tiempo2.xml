@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".ProcesosCinematica.ProcesoTiempo2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TableRow
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:padding="22dp"
+                        android:text="Tiempo transcurrido"
+                        android:textAppearance="?android:textAppearance"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+                </TableRow>
+            </TableLayout>
+
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TableRow
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/t1"
+                        android:layout_gravity="center"
+                        android:width="20dp"
+                        android:gravity="center"
+                        android:text="Δt"
+                        android:textAppearance="?android:textAppearance"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:width="20dp"
+                        android:gravity="center"
+                        android:text="="
+                        android:textAppearance="?android:textAppearance"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <TableLayout
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TableRow
+                            android:layout_gravity="center"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_height="20dp"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:text="Variacion de velocidad"
+                                android:textAppearance="?android:textAppearance"
+                                android:textSize="15dp" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_gravity="center"
+                            android:gravity="center">
+
+                            <View
+                                android:layout_width="180dp"
+                                android:layout_height="1dip"
+                                android:layout_gravity="center"
+                                android:background="#000000"
+                                android:foregroundGravity="center" />
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                android:layout_height="20dp"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:text="aceleracion angular"
+                                android:textAppearance="?android:textAppearance"
+                                android:textSize="15dp" />
+                        </TableRow>
+                    </TableLayout>
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TableRow
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/t2"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:width="20dp"
+                        android:gravity="center"
+                        android:text="Δt"
+                        android:textAppearance="?android:textAppearance"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:width="20dp"
+                        android:gravity="center"
+                        android:text="="
+                        android:textAppearance="?android:textAppearance"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <TableLayout
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TableRow
+                            android:layout_gravity="center"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="20dp"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:text="Δω"
+                                android:textAppearance="?android:textAppearance"
+                                android:textSize="15dp" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_gravity="center"
+                            android:gravity="center">
+
+                            <View
+                                android:layout_width="60dp"
+                                android:layout_height="1dip"
+                                android:layout_gravity="center"
+                                android:background="#000000"
+                                android:foregroundGravity="center" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_gravity="center"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="20dp"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:text="α"
+                                android:textAppearance="?android:textAppearance"
+                                android:textSize="15dp" />
+                        </TableRow>
+                    </TableLayout>
+                </TableRow>
+
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TableRow
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/t3"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:width="20dp"
+                        android:gravity="center"
+                        android:text="Δt"
+                        android:textAppearance="?android:textAppearance"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:width="20dp"
+                        android:gravity="center"
+                        android:text="="
+                        android:textAppearance="?android:textAppearance"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <TableLayout
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TableRow
+                            android:layout_gravity="center"
+                            android:gravity="center">
+
+                            <TextView
+                                android:id="@+id/dv_valor"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:text="nnn.nnn"
+                                android:textAppearance="?android:textAppearance"
+                                android:textSize="15dp" />
+                        </TableRow>
+
+                        <TableRow>
+
+                            <View
+                                android:layout_width="100dp"
+                                android:layout_height="1dip"
+                                android:layout_gravity="center"
+                                android:background="#000000"
+                                android:foregroundGravity="center" />
+                        </TableRow>
+
+                        <TableRow>
+
+                            <TextView
+                                android:id="@+id/a_valor"
+                                android:layout_height="20dp"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:text="NNN.NNN"
+                                android:textAppearance="?android:textAppearance"
+                                android:textSize="15dp" />
+                        </TableRow>
+                    </TableLayout>
+                </TableRow>
+
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="0.25"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TableRow
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/tFormula1_resultado"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:width="20dp"
+                        android:gravity="center"
+                        android:text="Δt"
+                        android:textAppearance="?android:textAppearance"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:width="20dp"
+                        android:gravity="center"
+                        android:text="="
+                        android:textAppearance="?android:textAppearance"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/resultado"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="resultado"
+                        android:textAppearance="?android:textAppearance"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/unidad"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:padding="15dp"
+                        android:text="unidad"
+                        android:textAppearance="?android:textAppearance"
+                        android:textSize="15dp" />
+                </TableRow>
+            </TableLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

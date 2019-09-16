@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/primer_grupo"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/dinamica"
+            android:title="Dinámica"
+            android:icon="@drawable/dinamica"/>
+        <item
+            android:id="@+id/cinematica"
+            android:title="Cinemática"
+            android:icon="@drawable/cinematica"/>
+
+    </group>
+
+    <group
+        android:id="@+id/segundo_grupo"
+        android:checkableBehavior="single">
+
+        <item android:title="Más opciones">
+            <menu>
+                <item
+                    android:id="@+id/nav_practica"
+                    android:icon="@drawable/practica"
+                    android:title="Práctica" />
+                <item
+                android:id="@+id/nav_evaluacion"
+                android:icon="@drawable/checked"
+                android:title="Evaluación" />
+                <item
+                    android:id="@+id/nav_version"
+                    android:icon="@drawable/computacion_en_la_nube"
+                    android:title="Versión 1.2" />
+
+            </menu>
+        </item>
+    </group>
+
+
+
+
+
+
+</menu>

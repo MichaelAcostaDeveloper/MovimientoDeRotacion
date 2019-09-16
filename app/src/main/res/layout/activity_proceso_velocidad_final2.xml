@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".ProcesosCinematica.ProcesoVelocidadFinal2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                  android:gravity="center"
+                android:orientation="vertical">
+
+                <TableRow
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:padding="22dp"
+                        android:text="Velocidad angular final"
+                        android:textAppearance="?android:textAppearance"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+                </TableRow>
+            </TableLayout>
+
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TableRow
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/vf1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="vf"
+                        android:width="40dp"
+                        android:textAppearance="?android:textAppearance"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:width="20dp"
+                        android:gravity="center"
+                        android:text="="
+                        android:textAppearance="?android:textAppearance"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <TableLayout
+                        android:layout_gravity="center"
+                        android:layout_marginRight="0dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TableRow
+                            android:layout_gravity="center"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_gravity="center"
+                                android:width="20dp"
+                                android:gravity="center"
+                                android:text="2"
+                                android:textAppearance="?android:textAppearance"
+                                android:textSize="15dp"
+                                android:textStyle="bold" />
+                        </TableRow>
+
+                    </TableLayout>
+                    <TextView
+                        android:layout_gravity="center"
+                        android:width="20dp"
+                        android:gravity="center"
+                        android:text="."
+                        android:textAppearance="?android:textAppearance"
+                        android:textSize="25dp"
+                        android:textStyle="bold" />
+
+                    <TableLayout
+                        android:layout_gravity="center"
+                        android:layout_marginRight="5dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TableRow
+                            android:layout_gravity="center"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="20dp"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:text="Velocidad"
+                                android:textAppearance="?android:textAppearance"
+                                android:textSize="15dp" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_gravity="center"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="20dp"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:text="media"
+                                android:textAppearance="?android:textAppearance"
+                                android:textSize="15dp" />
+                        </TableRow>
+
+                    </TableLayout>
+
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="-"
+                        android:textAppearance="?android:textAppearance"
+                        android:textSize="25dp"
+                        android:textStyle="bold" />
+
+                    <TableLayout
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="5dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TableRow
+                            android:layout_gravity="center"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="20dp"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:text="Velocidad"
+                                android:textAppearance="?android:textAppearance"
+                                android:textSize="15dp" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_gravity="center"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="20dp"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:text="inicial"
+                                android:textAppearance="?android:textAppearance"
+                                android:textSize="15dp" />
+                        </TableRow>
+
+                    </TableLayout>
+                </TableRow>
+
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TableRow
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/vf2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:width="40dp"
+                        android:gravity="center"
+                        android:text="vf"
+                        android:textAppearance="?android:textAppearance"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:width="20dp"
+                        android:gravity="center"
+                        android:text="="
+                        android:textAppearance="?android:textAppearance"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:width="20dp"
+                        android:gravity="center"
+                        android:text="2"
+                        android:textAppearance="?android:textAppearance"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:width="20dp"
+                        android:gravity="center"
+                        android:text="."
+                        android:textAppearance="?android:textAppearance"
+                        android:textSize="25dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/vm_Formula"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:width="40dp"
+                        android:gravity="center"
+                        android:text="Vm.."
+                        android:textAppearance="?android:textAppearance"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:width="20dp"
+                        android:gravity="center"
+                        android:text="-"
+                        android:textAppearance="?android:textAppearance"
+                        android:textSize="25dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/vo_Formula"
+                        android:layout_height="40dp"
+                        android:width="40dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="v0.."
+                        android:textAppearance="?android:textAppearance"
+                        android:textSize="15dp" />
+                </TableRow>
+
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TableRow
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/vf3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="vf"
+                        android:width="40dp"
+                        android:textAppearance="?android:textAppearance"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:width="20dp"
+                        android:gravity="center"
+                        android:text="="
+                        android:textAppearance="?android:textAppearance"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:width="20dp"
+                        android:gravity="center"
+                        android:text="2"
+                        android:textAppearance="?android:textAppearance"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:width="20dp"
+                        android:gravity="center"
+                        android:text="."
+                        android:textAppearance="?android:textAppearance"
+                        android:textSize="25dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/vm_valor"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="nnn.nnn"
+                        android:textAppearance="?android:textAppearance"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:width="20dp"
+                        android:gravity="center"
+                        android:text="-"
+                        android:textAppearance="?android:textAppearance"
+                        android:textSize="25dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/vo_valor"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="nnn.nnn"
+                        android:textAppearance="?android:textAppearance"
+                        android:textSize="15dp" />
+                </TableRow>
+
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TableRow
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/vf4"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="vf"
+                        android:width="40dp"
+                        android:textAppearance="?android:textAppearance"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:width="20dp"
+                        android:gravity="center"
+                        android:text="="
+                        android:textAppearance="?android:textAppearance"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/resultado"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="resultado"
+                        android:textAppearance="?android:textAppearance"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/unidad"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:paddingLeft="10dp"
+                        android:text="[rad/s]"
+                        android:textAppearance="?android:textAppearance"
+                        android:textSize="15dp" />
+                </TableRow>
+            </TableLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

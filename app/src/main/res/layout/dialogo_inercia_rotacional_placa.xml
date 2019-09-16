@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@android:style/Theme.NoTitleBar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/primaryTextColor"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/grafico"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:src="@drawable/calculos" />
+
+        <TextView
+            android:id="@+id/titulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:text="Nombre del objeto"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Seleccione las variables físicas conocidas."
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textSize="16dp"
+        android:textStyle="normal" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/check1"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="4"
+                android:text="Masa de objeto"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="15dp"
+                android:layout_height="27dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="m"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/check2"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:text="Longitud"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="15dp"
+                android:layout_height="27dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="a"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/check3"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:text="Ancho"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="15dp"
+                android:layout_height="27dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="b"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/check4"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:text="Inercia rotacional"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="15dp"
+                android:layout_height="27dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="I"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+    </GridLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <Button
+
+            android:id="@+id/botonCancelar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/primaryTextColor"
+            android:text="CANCELAR"
+            android:textColor="@color/colorAccent" />
+
+        <Button
+            android:id="@+id/botonOK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/primaryTextColor"
+            android:text="OK"
+            android:textColor="@color/colorAccent" />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="wrap_content"
+    android:paddingRight="5dp"
+    android:paddingLeft="5dp"
+    android:layout_marginTop="8dp"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TableRow>
+                <TextView
+                    android:id="@+id/id_text"
+                    android:layout_width="0dp"
+                    android:layout_weight="80"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textAllCaps="true"
+                    android:text="Nombre tarea"
+                    android:textAppearance="?attr/textAppearanceListItem" />
+                <ImageButton
+                    android:id="@+id/btnBorrarTarea"
+                    android:layout_width="0dp"
+                    android:layout_weight="20"
+                    android:layout_height="40dp"
+                    android:background="#ffffff"
+                    android:src="@drawable/ic_delete"
+                    android:textAllCaps="false"/>
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/codec"
+                    android:textStyle="italic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Codigo de la tarea"
+                    android:textAppearance="?textAppearanceListItemSecondary"
+                    android:textSize="13dp" />
+            </TableRow>
+        </TableLayout>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="vertical">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TableRow>
+                <TextView
+                    android:id="@+id/content"
+                    android:textSize="13dp"
+                    android:text="Descripcion....................."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?attr/textAppearanceListItem" />
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

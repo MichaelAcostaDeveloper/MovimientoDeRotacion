@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Resultados.Resultados_energia_rotacional"
+    tools:showIn="@layout/activity_resultados_energia_rotacional">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="*"
+            android:shrinkColumns="*"
+            android:orientation="vertical">
+            <TableRow
+                android:id="@+id/row1">
+                <RelativeLayout
+                    android:id="@+id/primera"
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/m"
+                        android:layout_width="175dp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="50dp"
+                        android:text="Periodo"
+                        android:textColor="#000000"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <android.support.design.widget.FloatingActionButton
+                        android:id="@+id/imagen"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginEnd="60dp"
+
+
+                        app:backgroundTint="@color/naranjaMedio"
+                        app:srcCompat="@drawable/flecha_derecha" />
+
+                </RelativeLayout>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="45dp"
+                android:id="@+id/row2">
+
+                <RelativeLayout
+                    android:id="@+id/segunda"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp">
+
+                    <TextView
+                        android:id="@+id/Resultado"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginStart="50dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:text="nnnnnnn"
+                        android:textColor="#000000"
+                        android:textSize="17dp" />
+
+                    <TextView
+                        android:id="@+id/unidad"
+                        android:layout_width="60dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="60dp"
+                        android:gravity="center"
+                        android:text="uni"
+                        android:textColor="#000000"
+                        android:textSize="17dp" />
+
+                </RelativeLayout>
+
+            </TableRow>
+            <TableRow
+                android:layout_height="1dip"
+                android:id="@+id/row3">
+                <View
+                    android:id="@+id/linea1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:layout_below="@+id/segunda"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:background="#c0c0c0" />
+
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+</LinearLayout>

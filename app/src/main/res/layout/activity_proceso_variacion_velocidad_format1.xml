@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".ProcesosCinematica.ProcesoVariacionVelocidadAngularFormat1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TableRow
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:padding="22dp"
+                        android:text="Variación de la velocidad angular"
+                        android:textAppearance="?android:textAppearance"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+                </TableRow>
+            </TableLayout>
+
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TableRow
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/dv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="DV"
+                        android:textAppearance="?android:textAppearance"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:width="20dp"
+                        android:gravity="center"
+                        android:text="="
+                        android:textAppearance="?android:textAppearance"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="Velocidad final"
+                        android:textAppearance="?android:textAppearance"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="-"
+                        android:textAppearance="?android:textAppearance"
+                        android:textSize="25dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="Velocidad inicial"
+                        android:textAppearance="?android:textAppearance"
+                        android:textSize="15dp" />
+                </TableRow>
+
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TableRow
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/dvFormula1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="DV"
+                        android:textAppearance="?android:textAppearance"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:width="20dp"
+                        android:gravity="center"
+                        android:text="="
+                        android:textAppearance="?android:textAppearance"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/vfFormula1"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="V final"
+                        android:width="40dp"
+                        android:textAppearance="?android:textAppearance"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:width="20dp"
+                        android:gravity="center"
+                        android:text="-"
+                        android:textAppearance="?android:textAppearance"
+                        android:textSize="25dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/voFormula1"
+                        android:layout_height="40dp"
+                        android:width="40dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="V incial"
+                        android:textAppearance="?android:textAppearance"
+                        android:textSize="15dp" />
+                </TableRow>
+
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TableRow
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/dvFormula1_calculo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="DV"
+                        android:textAppearance="?android:textAppearance"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:width="20dp"
+                        android:gravity="center"
+                        android:text="="
+                        android:textAppearance="?android:textAppearance"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/vfFormula1_valor"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="V final"
+                        android:textAppearance="?android:textAppearance"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:width="20dp"
+                        android:gravity="center"
+                        android:text="-"
+                        android:textAppearance="?android:textAppearance"
+                        android:textSize="25dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/voFormula1_valor"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="V incial"
+                        android:textAppearance="?android:textAppearance"
+                        android:textSize="15dp" />
+                </TableRow>
+
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TableRow
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/dvFormula1_resultado"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="DV"
+                        android:textAppearance="?android:textAppearance"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:width="25dp"
+                        android:gravity="center"
+                        android:text="="
+                        android:textAppearance="?android:textAppearance"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/resultado"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="resultado"
+                        android:textAppearance="?android:textAppearance"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/unidad"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:paddingLeft="10dp"
+                        android:text="unidad"
+                        android:textAppearance="?android:textAppearance"
+                        android:textSize="15dp" />
+                </TableRow>
+            </TableLayout>
+
+       </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
+

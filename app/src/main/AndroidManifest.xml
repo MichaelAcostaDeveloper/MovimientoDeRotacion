@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="michael.acosta.movimientoderotacion">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/airscrew"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/airscrew"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="michael.acosta.movimientoderotacion.TareaProfeDetalleActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name="michael.acosta.movimientoderotacion.TareaProfeListActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="michael.acosta.movimientoderotacion.ItemListActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="michael.acosta.movimientoderotacion.Módulos.MainActivityEvaluacion"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="michael.acosta.movimientoderotacion.Módulos.MainActivityPractica"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
+        <activity android:name="michael.acosta.movimientoderotacion.ProcesosInerciaRotacional.Proceso_calculo_inercia_caso_especial"
+            android:screenOrientation="portrait"/>
+        <activity android:name="michael.acosta.movimientoderotacion.ProcesosInerciaRotacional.Proceso_calculo_masa_caso_especial"
+            android:screenOrientation="portrait"/>
+        <activity android:name="michael.acosta.movimientoderotacion.ProcesosInerciaRotacional.Proceso_calculo_inercia_objetos"
+            android:screenOrientation="portrait"/>
+        <activity android:name="michael.acosta.movimientoderotacion.ProcesosInerciaRotacional.Proceso_calculo_radio_objetos"
+            android:screenOrientation="portrait"/>
+        <activity android:name="michael.acosta.movimientoderotacion.ProcesosInerciaRotacional.Proceso_calculo_masa_objetos"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="michael.acosta.movimientoderotacion.Resultados.Resultados_inercia_rotacional"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="michael.acosta.movimientoderotacion.ContextosDinamicos.InerciaRotacional"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
+        <activity android:name="michael.acosta.movimientoderotacion.ProcesosMomentoFuerza.ProcesoRadio"
+            android:screenOrientation="portrait"/>
+        <activity android:name="michael.acosta.movimientoderotacion.ProcesosMomentoFuerza.ProcesoFuerza"
+            android:screenOrientation="portrait"/>
+        <activity android:name="michael.acosta.movimientoderotacion.ProcesosMomentoFuerza.ProcesoAceleracion"
+            android:screenOrientation="portrait"/>
+        <activity android:name="michael.acosta.movimientoderotacion.ProcesosMomentoFuerza.ProcesoTorque"
+            android:screenOrientation="portrait"/>
+        <activity android:name="michael.acosta.movimientoderotacion.ProcesosMomentoFuerza.ProcesoMasa"
+            android:screenOrientation="portrait"/>
+        <activity android:name="michael.acosta.movimientoderotacion.ProcesosMomentoFuerza.ProcesoInercia"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="michael.acosta.movimientoderotacion.Resultados.Resultados_momento_fuerza"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
+        <activity android:name="michael.acosta.movimientoderotacion.ProcesosMomentoAngular.Proceso_calculo_velocidad"
+            android:screenOrientation="portrait"/>
+        <activity android:name="michael.acosta.movimientoderotacion.ProcesosMomentoAngular.Proceso_calculo_impulso"
+            android:screenOrientation="portrait"/>
+        <activity android:name="michael.acosta.movimientoderotacion.ProcesosMomentoAngular.Proceso_calculo_inercia"
+            android:screenOrientation="portrait"/>
+        <activity android:name="michael.acosta.movimientoderotacion.ProcesosMomentoAngular.Proceso_variacion_velocidad"
+            android:screenOrientation="portrait"/>
+        <activity android:name="michael.acosta.movimientoderotacion.ProcesosMomentoAngular.Proceso_calculo_momento"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="michael.acosta.movimientoderotacion.Resultados.Resultados_momento_angular"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
+        <activity android:name="michael.acosta.movimientoderotacion.ProcesosEnergiaRotacional.Proceso_variacion_velocidad"
+            android:screenOrientation="portrait"/>
+        <activity android:name="michael.acosta.movimientoderotacion.ProcesosEnergiaRotacional.Proceso_variacion_energia"
+            android:screenOrientation="portrait"/>
+        <activity android:name="michael.acosta.movimientoderotacion.ProcesosEnergiaRotacional.Proceso_calculo_inercia"
+            android:screenOrientation="portrait"/>
+        <activity android:name="michael.acosta.movimientoderotacion.ProcesosEnergiaRotacional.Proceso_calculo_velocidad"
+            android:screenOrientation="portrait"/>
+        <activity android:name="michael.acosta.movimientoderotacion.ProcesosEnergiaRotacional.Proceso_calculo_energia"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="michael.acosta.movimientoderotacion.Resultados.Resultados_energia_rotacional"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="michael.acosta.movimientoderotacion.ContextosDinamicos.EnergiaRotacional"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="michael.acosta.movimientoderotacion.ContextosDinamicos.MomentoFuerza"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="michael.acosta.movimientoderotacion.ContextosDinamicos.MomentoAngular"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
+        <activity android:name="michael.acosta.movimientoderotacion.ProcesosParametrosAngulares.ProcesoVelocidadAngular2"
+            android:screenOrientation="portrait"/>
+        <activity android:name="michael.acosta.movimientoderotacion.ProcesosParametrosAngulares.ProcesoVelocidadAngular1"
+            android:screenOrientation="portrait"/>
+        <activity android:name="michael.acosta.movimientoderotacion.ProcesosParametrosAngulares.ProcesoFrecuencia2"
+            android:screenOrientation="portrait"/>
+        <activity android:name="michael.acosta.movimientoderotacion.ProcesosParametrosAngulares.ProcesoFrecuencia1"
+            android:screenOrientation="portrait"/>
+        <activity android:name="michael.acosta.movimientoderotacion.ProcesosParametrosAngulares.ProcesoPeriodo2"
+            android:screenOrientation="portrait"/>
+        <activity android:name="michael.acosta.movimientoderotacion.ProcesosParametrosAngulares.ProcesoPeriodo1"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="michael.acosta.movimientoderotacion.Resultados.Resultados_parametros_angulares"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="michael.acosta.movimientoderotacion.ContextosCinematicos.ParametrosAngulares"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="michael.acosta.movimientoderotacion.Módulos.MainActivityDinamica"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="michael.acosta.movimientoderotacion.Módulos.MainActivityCinematica"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="michael.acosta.movimientoderotacion.ContextosCinematicos.CinematicaMovimiento"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="michael.acosta.movimientoderotacion.Resultados.Resultados_Cinematica"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
+        <activity android:name="michael.acosta.movimientoderotacion.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="michael.acosta.movimientoderotacion.ProcesosCinematica.ProcesoVariacionVelocidadAngularFormat1"
+            android:screenOrientation="portrait"/>
+        <activity android:name="michael.acosta.movimientoderotacion.ProcesosCinematica.ProcesoVelocidadAngularMediaFormat1"
+            android:screenOrientation="portrait"/>
+        <activity android:name="michael.acosta.movimientoderotacion.ProcesosCinematica.ProcesoTiempo1"
+            android:screenOrientation="portrait"/>
+        <activity android:name="michael.acosta.movimientoderotacion.ProcesosCinematica.ProcesoAceleracionFormat1"
+            android:screenOrientation="portrait"/>
+        <activity android:name="michael.acosta.movimientoderotacion.ProcesosCinematica.ProcesoCalculoDesplazamiento1"
+            android:screenOrientation="portrait"/>
+        <activity android:name="michael.acosta.movimientoderotacion.ProcesosCinematica.ProcesoTiempo2"
+            android:screenOrientation="portrait"/>
+        <activity android:name="michael.acosta.movimientoderotacion.ProcesosCinematica.ProcesoVariacionVelocidadAngularFormat2"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name="michael.acosta.movimientoderotacion.ProcesosCinematica.ProcesoVelocidadFinal1"
+            android:screenOrientation="portrait"/>
+        <activity android:name="michael.acosta.movimientoderotacion.ProcesosCinematica.ProcesoVelocidadAngularMediaFormat2"
+            android:screenOrientation="portrait"/>
+        <activity android:name="michael.acosta.movimientoderotacion.ProcesosCinematica.ProcesoVelocidadFinal2"
+            android:screenOrientation="portrait"/>
+        <activity android:name="michael.acosta.movimientoderotacion.ProcesosCinematica.ProcesoVelocidadInicial1"
+            android:screenOrientation="portrait"/>
+        <activity android:name="michael.acosta.movimientoderotacion.ProcesosCinematica.ProcesoVelocidadInicial2"
+            android:screenOrientation="portrait"/>
+        <activity android:name="michael.acosta.movimientoderotacion.ProcesosCinematica.ProcesoVelocidadInicial3"
+            android:screenOrientation="portrait"/>
+        <activity android:name="michael.acosta.movimientoderotacion.ProcesosCinematica.ProcesoVelocidadInicial4"
+            android:screenOrientation="portrait"/>
+        <activity android:name="michael.acosta.movimientoderotacion.ProcesosCinematica.ProcesoVelocidadFinal3"
+            android:screenOrientation="portrait"/>
+    </application>
+</manifest>
